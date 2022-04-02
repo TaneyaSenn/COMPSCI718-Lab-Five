@@ -9,7 +9,7 @@ public class Bird implements IAnimal {
 
     @Override
     public String sayHello() {
-        return null;
+        return "tweet tweet";
     }
 
     @Override
@@ -19,11 +19,11 @@ public class Bird implements IAnimal {
 
     @Override
     public String myName() {
-        return null;
+        return "Tweety the bird";
     }
 
     @Override
     public int legCount() {
-        return 0;
+        return 2;
     }
 }
